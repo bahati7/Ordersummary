@@ -8,11 +8,10 @@ body{
     justify-content: center;
 }
 .container{
-    width: 1000px;
-    height: 678px;
+    width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat;
     background-image: url('/images/pattern-background-desktop.svg');
-    margin: 20px auto;
     background-color: hsl(225, 100%, 94%);
 
 
@@ -24,15 +23,17 @@ body{
     margin: 0 auto;
     top: 50px;
     position: relative;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
     rgba(0,0,0,0.19);
 }
 .card img{
     width: 350px;
-    border-radius: 5px;
+    border-radius: 15px 15px 0 0;
     border-bottom: none;
+ 
 }
+
 .card h2{
     text-align: center;
     color: hsl(223, 47%, 23%);
@@ -43,10 +44,13 @@ body{
 }
 .purchase{
     display: flex;
-    width: 350px;
+    width: 270px;
     align-items: center;
-    padding: 0.5rem 9%;
+    margin-left: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 2px;
     flex-wrap: wrap;
+    background-color: hsl(225, 100%, 98%);
     /* justify-content: center; */
     gap: 1rem;
     
@@ -56,12 +60,20 @@ body{
     color: hsl(245, 75%, 52%);
     text-decoration: underline;
     margin-left: 3rem;
+    cursor: pointer;
+}
+.purchase .change:hover{
+    text-decoration: none;
+  color: hsl(245, 75%, 75%);
 }
 .purchase .logo img{
-    width: 40px;
-   
+    width: 40px;  
     
 }
+.purchase .logo img:hover{
+    transform: scale(1.2);
+}
+
 .payment{
     text-align: center;
     margin-top: 1rem;
@@ -73,11 +85,15 @@ body{
     padding: .8rem 3rem;
     color: #fff;
     width: 200px;
+    cursor: pointer;
     text-decoration: none;
     background: hsl(245, 75%, 52%);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
     rgba(0,0,0,0.19);
     
+}
+.payment .btn:hover{
+    background: hsl(245, 75%, 65%);
 }
 .cancel{
     text-align: center;
