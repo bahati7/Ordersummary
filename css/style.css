@@ -46,10 +46,10 @@ body{
     display: flex;
     width: 270px;
     align-items: center;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     padding: 0.5rem;
     border-radius: 2px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: hsl(225, 100%, 98%);
     /* justify-content: center; */
     gap: 1rem;
@@ -59,7 +59,7 @@ body{
 .purchase .change{
     color: hsl(245, 75%, 52%);
     text-decoration: underline;
-    margin-left: 3rem;
+    margin-left: 2rem;
     cursor: pointer;
 }
 .purchase .change:hover{
