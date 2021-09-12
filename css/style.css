@@ -17,7 +17,7 @@ body{
 
 }
 .card{
-    width: 390px;
+    width: 350px;
     height: 565px;
     background-color: #fff;
     margin: 0 auto;
@@ -28,7 +28,7 @@ body{
     rgba(0,0,0,0.19);
 }
 .card img{
-    width: 390px;
+    width: 350px;
     border-radius: 15px 15px 0 0;
     border-bottom: none;
  
@@ -50,9 +50,10 @@ body{
     margin-left: 2rem;
     padding: 0.5rem;
     border-radius: 2px;
-    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
     background-color: hsl(225, 100%, 98%);
-    /* justify-content: center; */
+    justify-content: center;
+    margin-left: 1rem;
     gap: 1.5rem;
     
     
