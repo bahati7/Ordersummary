@@ -17,7 +17,7 @@ body{
 
 }
 .card{
-    width: 350px;
+    width: 390px;
     height: 565px;
     background-color: #fff;
     margin: 0 auto;
@@ -28,7 +28,7 @@ body{
     rgba(0,0,0,0.19);
 }
 .card img{
-    width: 350px;
+    width: 390px;
     border-radius: 15px 15px 0 0;
     border-bottom: none;
  
@@ -41,6 +41,7 @@ body{
 .card p{
     text-align: center;
     color: hsl(224, 23%, 55%);
+   
 }
 .purchase{
     display: flex;
@@ -52,7 +53,7 @@ body{
     /* flex-wrap: wrap; */
     background-color: hsl(225, 100%, 98%);
     /* justify-content: center; */
-    gap: 1rem;
+    gap: 1.5rem;
     
     
 }
