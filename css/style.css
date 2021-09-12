@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    font-family: 'Red+Hat+Display',sans-serif;
+    font-size: 16px;
+    margin: 0;padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+    height: 678px;
+    background-repeat: no-repeat;
+    background-image: url('/images/pattern-background-desktop.svg');
+    margin: 20px auto;
+    background-color: hsl(225, 100%, 94%);
+
+
+}
+.card{
+    width: 350px;
+    height: 565px;
+    background-color: #fff;
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    rgba(0,0,0,0.19);
+}
+.card img{
+    width: 350px;
+    border-radius: 5px;
+    border-bottom: none;
+}
+.card h2{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+.card p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.purchase{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    padding: 0.5rem 9%;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 1rem;
+    
+    
+}
+.purchase .change{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    margin-left: 3rem;
+}
+.purchase .logo img{
+    width: 40px;
+   
+    
+}
+.payment{
+    text-align: center;
+    margin-top: 1rem;
+}
+.payment .btn{
+    display: inline-block;
+    position: relative;
+    border-radius: .5rem;
+    padding: .8rem 3rem;
+    color: #fff;
+    width: 200px;
+    text-decoration: none;
+    background: hsl(245, 75%, 52%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    rgba(0,0,0,0.19);
+    
+}
+.cancel{
+    text-align: center;
+    margin-top: 1.6rem;
+    font-weight: 700;
+    
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+
+
+@media(max-width:375px){
+    .container{
+        
+        background-repeat: no-repeat;
+        background-image: url('/images/pattern-background-mobile.svg');
+       
+    
+    
+    }
+  
+}
+  
